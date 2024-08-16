@@ -1,0 +1,1552 @@
+
+
+//import java.util.Scanner;
+
+//public class MyClass {
+    //public static void main(String args[]) {
+        //Scanner input = new Scanner(System.in);
+       // System.out.println("enter Adjective ");
+      //  String ad1=input.nextLine();
+       // System.out.println("enter action");
+        //String ac1=input.nextLine();
+       // System.out.println("enter an object");
+        //String ob1=input.nextLine();
+        
+        
+        //System.out.println("There was a " + ad1 + " man " + ac1 + " down the road swinging his " + ob1 + " the story ends ");
+
+//int myAge = 7;
+//int votingAge = 18;
+
+//if (myAge >= votingAge) {
+  //System.out.println("Old enough to vote!");
+  //} else {
+ // System.out.println("Not old enough to vote.");
+//}
+   // }
+    
+       //public class MyClass {
+
+     //public static void main(String[] args) {
+       //boolean myBoolean = false;
+       //int a = 5;
+       //int b = 7;
+       //System.out.println(a < b);
+       //System.out.println(0 > 7);
+      // System.out.println(myBoolean == false);
+  // }
+//}
+  // public class MyClass {
+   // public static void main(String[] args) {
+       // int i = 0;
+        //while (i <= 10)
+       // {
+           // System.out.println(i);
+           // i++;
+       // }
+ //   }
+
+//}
+//public class MyClass {
+    //public static void main(String[] args){
+        //int i = 2; 
+       // while (i <= 680)
+       // {
+            //System.out.println(i);
+            //i++;
+       // }
+   // }
+//}
+   //public class MyClass {
+       //public static void main(String[] args){
+           //int x = 720;
+           //while (x >= 300) {
+               // System.out.println(x);
+             //  --x;
+          // }
+      // }
+   //}
+    // public class MyClass {
+         //public static void main(String[] args){
+             //int pizza1 = 20;
+             //int pizza2 = 21;
+             //if  (pizza1 < pizza2) {
+             //    System.out.println("Pizza 1 is Cheaper!");
+             //}
+             //else {
+               //  System.out.println("pizza 2 is Cheaper!");
+            // }
+           //}
+         //}
+            // public class MyClass {
+    //public static void main(String[] args) {
+        //for (int i = 0; i < 5; i++) {
+           // System.out.println(i);
+       // }
+    //}
+//}
+//import java.util.Random;
+//import java.util.Scanner;
+
+//public class MyClass {
+    //public static void main(String[] args) {
+        //Scanner scanner = new Scanner(System.in);
+       // Random random = new Random();
+        
+       // int numberToGuess = random.nextInt(100) + 1;
+       // int userGuess = 0;
+        //int attempts = 0;
+        
+       // System.out.println("Guess the number (between 1 and 100):");
+        
+       // while (userGuess != numberToGuess) {
+          //  userGuess = scanner.nextInt();
+          //  attempts++;
+            
+           // if (userGuess < numberToGuess) {
+                //System.out.println("Too low! Try again:");
+            //} else if (userGuess > numberToGuess) {
+               // System.out.println("Too high! Try again:");
+           // } else {
+                //System.out.println("Congratulations! You've guessed the number in " + attempts + " attempts.");
+           // }
+        //}
+        
+        //scanner.close();
+    //}
+//}
+  
+
+//public class MyClass {
+    //public static void main(String[] args) {
+       // String[] mlk = {"Whole", "Almond", "Oat", "Soy"};
+      //  System.out.println(mlk.length);
+      //  System.out.println(mlk[0] = "2 percent " + mlk[0]);
+ //   }
+//}
+// public class MyClass {
+//     public static void main(String[] args) {
+//         Example of widening cast (int to double)
+//         int number = 10;
+//         double widenedNumber = number; // Implicit widening cast
+//         System.out.println("Widened number: " + widenedNumber);
+
+//         Example of narrowing cast (double to int)
+//         double preciseNumber = 9.99;
+//         int narrowedNumber = (int) preciseNumber; // Explicit narrowing cast
+//         System.out.println("Narrowed number: " + narrowedNumber);
+
+//         Original code
+//         String[] mlk = {"Whole", "Almond", "Oat", "Soy"};
+//         System.out.println("Array length: " + mlk.length);
+//         mlk[0] = "2 percent " + mlk[0]; // Modifying the first element
+//         mlk[0] += 9;
+//         System.out.println("Modified first element: " + mlk[0]);
+//     }
+// }
+// import java.util.InputMismatchException;
+// import java.util.Random;
+// import java.util.Scanner;
+
+// public class MyClass {
+//     public static void main(String[] args) {
+//         Scanner scanner = new Scanner(System.in);
+//         Random random = new Random();
+        
+//         int numberToGuess = random.nextInt(100) + 1;
+//         int userGuess = 0;
+//         int attempts = 0;
+//         boolean hasGuessedCorrectly = false;
+        
+//         System.out.println("Guess the number (between 1 and 100):");
+        
+//         while (true) {
+//             try {
+//                 userGuess = scanner.nextInt();
+//                 attempts++;
+                
+//                 if (userGuess < numberToGuess) {
+//                     System.out.println("Too low! Try again:");
+//                 } else if (userGuess > numberToGuess) {
+//                     System.out.println("Too high! Try again:");
+//                 } else {
+//                     hasGuessedCorrectly = true;
+//                     System.out.println("Congratulations! You've guessed the number in " + attempts + " attempts.");
+//                     break;
+//                 }
+                
+//             } catch (InputMismatchException e) {
+//                 System.out.println("Invalid input. Please enter an integer between 1 and 100.");
+//                 scanner.next(); // clear the invalid input
+//             }
+//         }
+        
+//         scanner.close();
+//     }
+// }
+// import java.util.Scanner;
+
+// public class MyClass {
+
+//     public static void main(String[] args) {
+//         Scanner scanner = new Scanner(System.in);
+
+//       // Da pizza's! (in an array....)
+//         String[] pizzas = {"Random!", "Pepperoni", "Vegetarian", "BBQ Chicken", "Hawaiian"};
+        
+//         // more of da array...........(for prices)
+//         double[] prices = {8.99, 9.99, 7.99, 10.99, 9.49};
+
+//         // boolean to check if the customer wants to give da more orders.
+//         boolean continueOrdering = true;
+
+//         while (continueOrdering) {
+//             // Display of the pizza
+//             System.out.println("Welcome to the Java Pizza Store! Here are our available pizzas:");
+//             for (int i = 0; i < pizzas.length; i++) {
+//                 System.out.println((i + 1) + ". " + pizzas[i] + " - $" + prices[i]);
+//             }
+                   
+//             // Ask user to gimme business
+//             System.out.print("Please select a pizza by entering the number (1-" + pizzas.length + "): ");
+//             int choice = scanner.nextInt();
+
+//             // Check if the da order make sense!
+//             if (choice >= 1 && choice <= pizzas.length) {
+//                 int index = choice - 1;
+//                 System.out.println("You selected: " + pizzas[index]);
+//                 System.out.println("Price: $" + prices[index]);
+
+//                 // Ask if the user wants to give me more business!
+//                 System.out.print("Do you want to add a topping? (yes/no): ");
+//                 scanner.nextLine(); 
+//                 String addTopping = scanner.nextLine();
+
+//                 if (addTopping.equalsIgnoreCase("yes")) {
+//                     System.out.println("Topping added. Note: There will be an extra charge of $1.00.");
+//                 }
+
+//                 // Ask if the user wants to continue givin me business
+//                 System.out.print("Would you like to order another pizza? (yes/no): ");
+//                 String orderMore = scanner.nextLine();
+
+//                 if (orderMore.equalsIgnoreCase("no")) {
+//                     continueOrdering = false;
+//                 }
+
+//             } else {
+//                 System.out.println("Invalid choice. Please select a number between 1 and " + pizzas.length + ".");
+//             }
+//         }
+
+//         System.out.println("Thank you for visiting the java pizza Store. Have a great day!");
+//         scanner.close();
+//     }
+// }
+ //20$ how do i give the user that much to spend and when i select a pizza it should deduct the money... 
+// import java.util.Scanner;
+
+// public class MyClass {
+
+//     public static void main(String[] args) {
+//         Scanner scanner = new Scanner(System.in);
+
+//         // Array of available pizzas
+//         String[] pizzas = {"Margherita", "Pepperoni", "Vegetarian", "BBQ Chicken", "Hawaiian"};
+        
+//         // Array of pizza prices
+//         double[] prices = {8.99, 9.99, 7.99, 10.99, 9.49};
+
+//         // User's starting balance
+//         double balance = 20.00;
+
+//         boolean continueOrdering = true;
+
+//         while (continueOrdering) {
+//             // Display available pizzas
+//             System.out.println("Available pizzas:");
+//             for (int i = 0; i < pizzas.length; i++) {
+//                 System.out.println((i + 1) + ". " + pizzas[i] + " - $" + prices[i]);
+//             }
+
+//             // Display user's current balance
+//             System.out.printf("Your balance: $%.2f%n", balance);
+
+//             // Ask user to select a pizza
+//             System.out.print("Select a pizza (1-" + pizzas.length + "): ");
+//             int choice = scanner.nextInt() - 1;
+
+//             // Check if the choice is valid
+//             if (choice >= 0 && choice < pizzas.length) {
+//                 double pizzaPrice = prices[choice];
+                
+//                 // Check if the user has enough balance
+//                 if (balance >= pizzaPrice) {
+//                     // Deduct the pizza price from the balance
+//                     balance -= pizzaPrice;
+//                     System.out.printf("You bought a %s for $%.2f.%n", pizzas[choice], pizzaPrice);
+//                     System.out.printf("Remaining balance: $%.2f%n", balance);
+
+//                     // Ask if the user wants to continue ordering
+//                     if (balance <= 0) {
+//                         System.out.println("Your balance is $0.00. No more orders can be placed.");
+//                         continueOrdering = false;
+//                     } else {
+//                         System.out.print("Do you want to order another pizza? (yes/no): ");
+//                         scanner.nextLine(); // Consume leftover newline
+//                         String orderMore = scanner.nextLine();
+
+//                         if (orderMore.equalsIgnoreCase("no")) {
+//                             continueOrdering = false;
+//                         }
+//                     }
+
+//                 } else {
+//                     System.out.println("Insufficient balance for this pizza.");
+//                 }
+
+//             } else {
+//                 System.out.println("Invalid choice. Please select a number between 1 and " + pizzas.length + ".");
+//             }
+//         }
+
+//         System.out.println("Thank you for visiting the Java Pizza Store. Have a great day!");
+//         scanner.close();
+    
+//     }
+// }
+  //how do i add toppings???
+//   import java.util.Scanner;
+
+// public class MyClass {
+
+//     public static void main(String[] args) {
+//         Scanner scanner = new Scanner(System.in);
+
+//         // Array of available pizzas
+//         String[] pizzas = {"Margherita", "Pepperoni", "Vegetarian", "BBQ Chicken", "Hawaiian"};
+        
+//         // Array to hold the price of each pizza
+//         double[] prices = {8.99, 9.99, 7.99, 10.99, 9.49};
+
+//         // User's starting balance
+//         double balance = 20.00;
+
+//         // Boolean to keep track of whether the user wants to continue ordering
+//         boolean continueOrdering = true;
+
+//         while (continueOrdering) {
+//             // Display available pizzas
+//             System.out.println("Welcome to the Pizza Store! Here are our available pizzas:");
+//             for (int i = 0; i < pizzas.length; i++) {
+//                 System.out.println((i + 1) + ". " + pizzas[i] + " - $" + prices[i]);
+//             }
+
+//             // Display user's current balance
+//             System.out.println("Your current balance: $" + String.format("%.2f", balance));
+
+//             // Ask user to select a pizza
+//             System.out.print("Please select a pizza by entering the number (1-" + pizzas.length + "): ");
+//             int choice = scanner.nextInt();
+
+//             // Check if the choice is valid
+//             if (choice >= 1 && choice <= pizzas.length) {
+//                 int index = choice - 1;
+//                 double pizzaPrice = prices[index];
+                
+//                 // Check if the user has enough balance
+//                 if (balance >= pizzaPrice) {
+//                     // Deduct the pizza price from the balance
+//                     balance -= pizzaPrice;
+//                     System.out.println("You selected: " + pizzas[index]);
+//                     System.out.println("Price: $" + String.format("%.2f", pizzaPrice));
+//                     System.out.println("Remaining balance: $" + String.format("%.2f", balance));
+
+//                     // Ask if the user wants to add a topping
+//                     System.out.print("Do you want to add a topping? (yes/no): ");
+//                     scanner.nextLine(); // Consume the leftover newline
+//                     String addTopping = scanner.nextLine();
+
+//                     if (addTopping.equalsIgnoreCase("yes")) {
+//                         System.out.println("Topping added. Note: There will be an extra charge of $1.00.");
+//                         balance -= 1.00; // Deduct topping cost
+//                         System.out.println("Remaining balance: $" + String.format("%.2f", balance));
+//                     }
+
+//                     // Check if the user wants to continue ordering
+//                     if (balance <= 0) {
+//                         System.out.println("You don't have enough balance to continue ordering.");
+//                         continueOrdering = false;
+//                     } else {
+//                         System.out.print("Would you like to order another pizza? (yes/no): ");
+//                         String orderMore = scanner.nextLine();
+
+//                         if (orderMore.equalsIgnoreCase("no")) {
+//                             continueOrdering = false;
+//                         }
+//                     }
+
+//                 } else {
+//                     System.out.println("Insufficient balance. Please add more funds or choose a less expensive pizza.");
+//                 }
+
+//             } else {
+//                 System.out.println("Invalid choice. Please select a number between 1 and " + pizzas.length + ".");
+//             }
+//         }
+
+//         System.out.println("Thank you for visiting the Pizza Store. Have a great day!");
+//         scanner.close();
+//     }
+// }
+// import java.util.Scanner;
+
+// public class MyClass {
+
+//     public static void main(String[] args) {
+//         Scanner scanner = new Scanner(System.in);
+
+//         // Collect user inputs
+//         System.out.print("Enter a noun: ");
+//         String noun = scanner.nextLine();
+        
+//         System.out.print("Enter a verb: ");
+//         String verb = scanner.nextLine();
+        
+//         System.out.print("Enter an adjective: ");
+//         String adjective = scanner.nextLine();
+        
+//         System.out.print("Enter an adverb: ");
+//         String adverb = scanner.nextLine();
+        
+//         System.out.print("Enter a place: ");
+//         String place = scanner.nextLine();
+
+//         // Generate the Mad Lib story
+//         String madLib = "Once upon a time, in a " + adjective + " " + place + ", there was a " + noun + " who loved to " + verb + ". "
+//                 + "Every day, the " + noun + " would " + verb + " " + adverb + " around the " + place + ". "
+//                 + "One day, it discovered something extraordinary.";
+
+//         // Display the Mad Lib story
+//         System.out.println("\nHere's your Mad Lib story:");
+//         System.out.println(madLib);
+
+//         scanner.close();
+//     }
+// }
+//      public class MyClass {
+//     // Definition of Method
+//     public int addNumbers(int a, int b) {
+//         return a + b; // parameters of the method
+//     }
+
+//     public static void main(String[] args) {
+//         MyClass myClass = new MyClass();
+//         int sum = myClass.addNumbers(5, 10); 
+//         System.out.println("Sum: " + sum);
+//     }
+// }
+
+// public class MyClass {
+//     public static int addNumbers (int a, int b) {
+//         return a + b;
+//     }
+//     public static void main(String[] args) {
+//         int sum = addNumbers(5,10);
+//         System.out.println("Sum: " + sum);
+//     }
+// }
+//import java.util.Random;
+// import java.util.Scanner;
+
+// public class MyClass {
+
+//     // Method to generate a random number between 1 and 100
+//     public int generateRandomNumber() {
+//         Random random = new Random();
+//         return random.nextInt(100) + 1; // Generates a number between 1 and 100
+//     }
+
+//     // Method to get a guess from the user
+//     public int getUserGuess() {
+//         Scanner scanner = new Scanner(System.in);
+//         System.out.print("Enter your guess (1-100): ");
+//         return scanner.nextInt();
+//     }
+
+//     // Method to check the user's guess against the random number
+//     public void checkGuess(int guess, int numberToGuess) {
+//         if (guess < numberToGuess) {
+//             System.out.println("Too low! Try again.");
+//         } else if (guess > numberToGuess) {
+//             System.out.println("Too high! Try again.");
+//         } else {
+//             System.out.println("Congratulations! You guessed the number!");
+//         }
+//     }
+
+//     public static void main(String[] args) {
+//         MyClass game = new MyClass();
+//         int numberToGuess = game.generateRandomNumber();
+//         int guess = 0;
+//         Scanner scanner = new Scanner(System.in);
+
+//         System.out.println("Welcome to the Number Guessing Game!");
+//         while (guess != numberToGuess) {
+//             guess = game.getUserGuess();
+//             game.checkGuess(guess, numberToGuess);
+//         }
+//     }
+// }
+
+// import java.util.Scanner;
+
+// public class AyaanVscode {
+
+//     public static void main(String[] args) {
+//         Scanner scanner = new Scanner(System.in);
+//         double num1, num2, result;
+        
+//         String operator;
+
+//         System.out.println("da java calculator");
+//         System.out.print("da first number!: ");
+//         num1 = scanner.nextDouble();
+
+//         System.out.print("da operator! (+, -, *, /): ");
+//         operator = scanner.next();
+
+//         System.out.print("da second number: ");
+//         num2 = scanner.nextDouble();
+
+//         switch (operator) {
+//             case "+":
+//                 result = num1 + num2;
+//                 System.out.println("Result: " + result);
+//                 break;
+//             case "-":
+//                 result = num1 - num2;
+//                 System.out.println("Result: " + result);
+//                 break;
+//             case "*":
+//                 result = num1 * num2;
+//                 System.out.println("Result: " + result);
+//                 break;
+//             case "/":
+//                 if (num2 != 0) {
+//                     result = num1 / num2;
+//                     System.out.println("Result: " + result);
+//                 } else {
+//                     System.out.println("u cant divide by zero");
+//                 }
+//                 break;
+//             default:
+//                 System.out.println("that is not an operator fool!");
+//                 break;
+//         }
+
+//         scanner.close();
+//     }
+// }
+// import java.util.Random;
+// import java.util.Scanner;
+
+// public class AyaanVscode {
+//     private int playerScore = 0;
+//     private int computerScore = 0;
+//     private Scanner scanner = new Scanner(System.in);
+//     private Random random = new Random();
+
+//     public static void main(String[] args) {
+//         AyaanVscode game = new AyaanVscode();
+//         game.playGame();
+//     }
+
+//     public void playGame() {
+//         System.out.println("Enter your move (rock, paper, or scissors):");
+//         String playerMove = scanner.nextLine().toLowerCase();
+//         String computerMove = generateComputerMove();
+//         System.out.println("Computer move: " + computerMove);
+//         determineWinner(playerMove, computerMove);
+//         System.out.println("Scores - Player: " + playerScore + ", Computer: " + computerScore);
+//     }
+
+//     private String generateComputerMove() {
+//         int move = random.nextInt(3);
+//         switch (move) {
+//             case 0: return "rock";
+//             case 1: return "paper";
+//             case 2: return "scissors";
+//             default: return "rock";
+//         }
+//     }
+
+//     private void determineWinner(String playerMove, String computerMove) {
+//         if (playerMove.equals(computerMove)) {
+//             System.out.println("It's a tie!");
+//         } else if (
+//             (playerMove.equals("rock") && computerMove.equals("scissors")) ||
+//             (playerMove.equals("paper") && computerMove.equals("rock")) ||
+//             (playerMove.equals("scissors") && computerMove.equals("paper"))
+//         ) {
+//             System.out.println("Player wins!");
+//             playerScore++;
+//         } else {
+//             System.out.println("Computer wins!");
+//             computerScore++;
+//         }
+//     }
+// }
+// import java.util.Random;
+// import java.util.Scanner;
+
+// public class AyaanVscode {
+//     private int playerScore = 0;
+//     private int computerScore = 0;
+//     private Scanner scanner = new Scanner(System.in);
+//     private Random random = new Random();
+
+//     public static void main(String[] args) {
+//         AyaanVscode game = new AyaanVscode();
+//         game.playGame();
+//     }
+
+//     public void playGame() {
+//         String playAgain;
+//         do {
+//             System.out.println("Enter your move (rock, paper, or scissors):");
+//             String playerMove = scanner.nextLine().toLowerCase();
+//             String computerMove = generateComputerMove();
+//             System.out.println("Computer move: " + computerMove);
+//             determineWinner(playerMove, computerMove);
+//             System.out.println("Scores - Player: " + playerScore + ", Computer: " + computerScore);
+//             System.out.println("Do you want to play again? (yes or no):");
+//             playAgain = scanner.nextLine().toLowerCase();
+//         } while (playAgain.equals("yes"));
+//     }
+
+//     private String generateComputerMove() {
+//         int move = random.nextInt(3);
+//         switch (move) {
+//             case 0: return "rock";
+//             case 1: return "paper";
+//             case 2: return "scissors";
+//             default: return "rock";
+//         }
+//     }
+
+//     private void determineWinner(String playerMove, String computerMove) {
+//         if (playerMove.equals(computerMove)) {
+//             System.out.println("It's a tie!");
+//         } else if (
+//             (playerMove.equals("rock") && computerMove.equals("scissors")) ||
+//             (playerMove.equals("paper") && computerMove.equals("rock")) |
+//             (playerMove.equals("scissors") && computerMove.equals("paper"))
+//         ) {
+//             System.out.println("Player wins!");
+//             playerScore++;
+//         } else {
+//             System.out.println("Computer wins!");
+//             computerScore++;
+//         }
+//     }
+// }
+//instance variable
+// public class AyaanVscode {
+//     private String color;
+//     private String model;
+//     private int year;
+//     private String owner;
+//     // constructor
+//     public AyaanVscode(String color, String model, int year, String owner){
+//         this.color = color;
+//         this.model = model;
+//         this.year = year;
+//         this.owner = owner;
+
+//     }
+//     // methods
+//     public String getColor() {
+//         return color;
+//     }
+//     public void setColor(String color){
+//         this.color = color;
+//     }
+
+// }
+// public class Bike{
+//     private String color;
+//     private String model;
+//     private int year;
+//     private String owner;
+    
+//     public Bike(String color, String model, int year, String owner){
+//         this.color = color;
+//         this.model = model
+//         this.year = year
+//         this.owner = owner;
+//     }
+//     public String getColor() {
+//         return color;
+
+//         public void setColor(String color) {
+//             this.color = color
+//         }
+//     }
+// }
+// public class AyaanVscode extends QWERTY {
+
+//     public static void main(String[] args){
+//         new AyaanVscode();
+//         System.out.println("Bye!");
+//         System.out.println("Value is " + getvalue());
+//         int x = value; // no access
+//     }
+//}
+// import javax.swing.Timer;
+// import java.awt.event.ActionEvent;
+// import java.awt.event.ActionListener;
+// import java.text.DateFormat;
+// import java.text.SimpleDateFormat;
+// import java.util.Calendar;
+
+// public class SeatingChart {
+//     public static void main(String... args) throws InterruptedException {
+//         final DateFormat dateFormat = new SimpleDateFormat("yyyy/MM/dd HH:mm:ss");
+//         int interval = 1000; // 1000 ms
+
+//         Timer timer = new Timer(interval, new ActionListener() {
+//             @Override
+//             public void actionPerformed(ActionEvent e) {
+//                 Calendar now = Calendar.getInstance();
+//                 System.out.println(dateFormat.format(now.getTime()));
+//             }
+//         });
+
+//         timer.start(); // Start the timer
+
+//         // Keep the main thread alive to allow the timer to continue running
+//         Thread.currentThread().join();
+//     }
+// }
+
+// import java.util.ArrayList;
+// import java.util.List;
+// import java.util.Scanner;
+
+// public class AyaanVscode {
+//     private char[][] seatingGrid;
+//     private double[][] priceGrid;
+//     private int rows;
+//     private int cols;
+
+//     // Constructor to initialize the seating grid and price grid
+//     public AyaanVscode(int rows, int cols) {
+//         this.rows = rows;
+//         this.cols = cols;
+//         seatingGrid = new char[rows][cols];
+//         priceGrid = new double[rows][cols];
+        
+//         // Initialize seatingGrid with 'o' for open seats
+//         for (int i = 0; i < rows; i++) {
+//             for (int j = 0; j < cols; j++) {
+//                 seatingGrid[i][j] = 'o';
+//             }
+//         }
+
+//         // Initialize priceGrid with 0.0 for default prices
+//         for (int i = 0; i < rows; i++) {
+//             for (int j = 0; j < cols; j++) {
+//                 priceGrid[i][j] = 0.0;
+//             }
+//         }
+//     }
+
+//     // Display a welcome message
+//     public void displayWelcomeMessage() {
+//         System.out.println("Welcome to the AyaanVscode Theater Booking System!");
+//         System.out.println("Here, you can view the seating arrangement, check prices, and book seats.");
+//     }
+
+//     // Set the price for a specific seat
+//     public void setSeatPrice(int row, int col, double price) {
+//         if (isValidSeat(row, col)) {
+//             priceGrid[row][col] = price;
+//         } else {
+//             throw new IllegalArgumentException("Invalid seat coordinates");
+//         }
+//     }
+
+//     // Book a seat if it is open
+//     public boolean bookSeat(int row, int col) {
+//         if (isValidSeat(row, col)) {
+//             if (seatingGrid[row][col] == 'o') {
+//                 seatingGrid[row][col] = 'x';
+//                 return true;
+//             } else {
+//                 return false; // Seat is already occupied
+//             }
+//         } else {
+//             throw new IllegalArgumentException("Invalid seat coordinates");
+//         }
+//     }
+
+//     // Buy multiple seats and mark them as booked
+//     public boolean buySeats(List<int[]> seats) {
+//         boolean allSeatsAvailable = true;
+
+//         // Check if all seats are available
+//         for (int[] seat : seats) {
+//             int row = seat[0];
+//             int col = seat[1];
+//             if (isValidSeat(row, col) && seatingGrid[row][col] == 'o') {
+//                 continue;
+//             } else {
+//                 allSeatsAvailable = false;
+//                 break;
+//             }
+//         }
+
+//         if (allSeatsAvailable) {
+//             // Mark all seats as booked
+//             for (int[] seat : seats) {
+//                 int row = seat[0];
+//                 int col = seat[1];
+//                 seatingGrid[row][col] = 'x';
+//             }
+//             return true;
+//         } else {
+//             return false; // At least one seat was not available
+//         }
+//     }
+
+//     // Cancel a booking for a seat
+//     public boolean cancelSeat(int row, int col) {
+//         if (isValidSeat(row, col)) {
+//             if (seatingGrid[row][col] == 'x') {
+//                 seatingGrid[row][col] = 'o';
+//                 return true;
+//             } else {
+//                 return false; // Seat is not booked
+//             }
+//         } else {
+//             throw new IllegalArgumentException("Invalid seat coordinates");
+//         }
+//     }
+
+//     // Get the status of a specific seat
+//     public char getSeatStatus(int row, int col) {
+//         if (isValidSeat(row, col)) {
+//             return seatingGrid[row][col];
+//         } else {
+//             throw new IllegalArgumentException("Invalid seat coordinates");
+//         }
+//     }
+
+//     // Get the price of a specific seat
+//     public double getSeatPrice(int row, int col) {
+//         if (isValidSeat(row, col)) {
+//             return priceGrid[row][col];
+//         } else {
+//             throw new IllegalArgumentException("Invalid seat coordinates");
+//         }
+//     }
+
+//     // Check if the seat coordinates are valid
+//     private boolean isValidSeat(int row, int col) {
+//         return row >= 0 && row < rows && col >= 0 && col < cols;
+//     }
+
+//     // Provide a string representation of the seating and pricing grid
+//     @Override
+//     public String toString() {
+//         StringBuilder seatingStr = new StringBuilder("Seating Grid:\n");
+//         StringBuilder priceStr = new StringBuilder("Price Grid:\n");
+
+//         for (int r = 0; r < rows; r++) {
+//             for (int c = 0; c < cols; c++) {
+//                 seatingStr.append(seatingGrid[r][c]).append(' ');
+//                 priceStr.append(String.format("$%.2f ", priceGrid[r][c]));
+//             }
+//             seatingStr.append('\n');
+//             priceStr.append('\n');
+//         }
+
+//         return seatingStr.append('\n').append(priceStr).toString();
+//     }
+
+//     // Main method to demonstrate usage
+//     public static void main(String[] args) {
+//         Scanner scanner = new Scanner(System.in);
+//         AyaanVscode theater = new AyaanVscode(3, 4); // 3 rows and 4 columns
+
+//         // Set prices
+//         theater.setSeatPrice(0, 0, 10.00);
+//         theater.setSeatPrice(0, 1, 12.00);
+//         theater.setSeatPrice(1, 2, 15.50);
+
+//         // Display welcome message
+//         theater.displayWelcomeMessage();
+
+//         // Print the initial grids
+//         System.out.println("Initial State:");
+//         System.out.println(theater);
+
+//         // Interactively buy seats
+//         List<int[]> seatsToBuy = new ArrayList<>();
+//         boolean continueBooking = true;
+
+//         while (continueBooking) {
+//             System.out.println("Enter the row and column of the seat you want to book (e.g., 0 1 for row 0, column 1). Enter -1 -1 to finish.");
+//             int row = scanner.nextInt();
+//             int col = scanner.nextInt();
+//             if (row == -1 && col == -1) {
+//                 continueBooking = false;
+//             } else {
+//                 if (theater.isValidSeat(row, col) && theater.getSeatStatus(row, col) == 'o') {
+//                     seatsToBuy.add(new int[]{row, col});
+//                     System.out.println("Seat (" + row + ", " + col + ") added to your booking.");
+//                 } else {
+//                     System.out.println("Invalid seat or seat is already occupied. Please try again.");
+//                 }
+//             }
+//         }
+
+//         // Confirm booking
+//         boolean success = theater.buySeats(seatsToBuy);
+//         if (success) {
+//             System.out.println("Seats booked successfully!");
+//         } else {
+//             System.out.println("Some seats were not available. Booking failed.");
+//         }
+
+//         // Print the updated grids
+//         System.out.println("After Booking Seats:");
+//         System.out.println(theater);
+
+//         // Close the scanner
+//         scanner.close();
+//     }
+// }
+
+// array lists eg
+// import java.util.ArrayList; // import the ArrayList class
+
+// ArrayList<String> cars = new ArrayList<String>(); // Create an ArrayList object
+
+// import java.util.ArrayList;
+
+// public class Main {
+//   public static void main(String[] args) {
+//     ArrayList<String> cars = new ArrayList<String>();
+//     cars.add("Volvo");
+//     cars.add("BMW");
+//     cars.add("Ford");
+//     cars.add("Mazda");
+//     System.out.println(cars);
+//   }
+// }
+// to acsess array list
+//cars.get(0);
+//to change item
+//cars.set(0, "Opel");
+//remove
+//cars.remove(0);
+// to remove all elements 
+//cars.clear();
+
+//Lambda
+//A lambda expression is a short block of code which takes in parameters and 
+//returns a value. Lambda expressions are similar to methods,
+// but they do not need a name and they can be implemented 
+//right in the body of a method.
+
+//The simplest lambda expression contains a single parameter and an expression:
+//parameter -> expression
+
+//To use more than one parameter, wrap them in parentheses:
+//(parameter1, parameter2) -> expression
+
+//Expressions are limited. They have to immediately return a value,
+// and they cannot contain variables, assignments or statements such as if or for.
+// In order to do more complex operations, a code block can be used with curly braces.
+// If the lambda expression needs to return a value, 
+//then the code block should have a return statement.
+
+//(parameter1, parameter2) -> { code block }
+
+//Use a lambda expression in the ArrayList's forEach() method to print every item in the list:
+
+// import java.util.ArrayList;
+
+// public class Main {
+//   public static void main(String[] args) {
+//     ArrayList<Integer> numbers = new ArrayList<Integer>();
+//     numbers.add(5);
+//     numbers.add(9);
+//     numbers.add(8);
+//     numbers.add(1);
+//     numbers.forEach( (n) -> { System.out.println(n); } );
+//   }
+// }
+// array lists eg
+// import java.util.ArrayList; // import the ArrayList class
+
+// ArrayList<String> cars = new ArrayList<String>(); // Create an ArrayList object
+
+// import java.util.ArrayList;
+
+// public class Main {
+//   public static void main(String[] args) {
+//     ArrayList<String> cars = new ArrayList<String>();
+//     cars.add("Volvo");
+//     cars.add("BMW");
+//     cars.add("Ford");
+//     cars.add("Mazda");
+//     System.out.println(cars);
+//   }
+// }
+// to acsess array list
+//cars.get(0);
+//to change item
+//cars.set(0, "Opel");
+//remove
+//cars.remove(0);
+// to remove all elements 
+//cars.clear();
+
+// import java.util.ArrayList;
+// import java.util.Scanner;
+
+// public class AyaanVscode {
+//     private ArrayList<String> tdl;
+
+//     public AyaanVscode() {
+//         tdl = new ArrayList<String>();
+//         initializeList();
+//     }
+
+//     private void initializeList() {
+//         tdl.add("Shopping for groceries");
+//         tdl.add("Go to school");
+//         tdl.add("Clean your room");
+//         tdl.add("Get milk");
+//         tdl.add("Make food!");
+//         tdl.add("Code!");
+//         tdl.add("Play games");
+//         tdl.add("Study for 1hr");
+//         tdl.add("Attend tuitions");
+//         tdl.add("Do a course online");
+//         tdl.add("Learn to manage time well");
+//     }
+
+//     public void addItem(String item) {
+//         tdl.add(item);
+//     }
+
+//     public void removeItem(String item) {
+//         try {
+//             int index = Integer.parseInt(item) - 1;
+//             if (index >= 0 && index < tdl.size()) {
+//                 String removedItem = tdl.remove(index);
+//                 System.out.println("Removed: " + removedItem);
+//             } else {
+//                 System.out.println("Invalid item number.");
+//             }
+//         } catch (NumberFormatException e) {
+//             System.out.println("Invalid input. Please enter a valid number.");
+//         }
+//     }
+
+//     public void printList() {
+//         System.out.println("Current list:");
+//         for (int i = 0; i < tdl.size(); i++) {
+//             System.out.println((i + 1) + ". " + tdl.get(i));
+//         }
+//     }
+
+//     public static void main(String[] args) {
+//         AyaanVscode av = new AyaanVscode();
+//         Scanner scanner = new Scanner(System.in);
+//         String input;
+
+//         do {
+//             av.printList();
+//             System.out.println("Enter 'add <item>' to add a new item, 'remove <item number>' to remove an item, or 'exit' to quit:");
+//             input = scanner.nextLine();
+
+//             if (input.startsWith("add ")) {
+//                 String itemToAdd = input.substring(4);
+//                 av.addItem(itemToAdd);
+//                 System.out.println("Item added.");
+//             } else if (input.startsWith("remove ")) {
+//                 String itemToRemove = input.substring(7);
+//                 av.removeItem(itemToRemove);
+//             } else if (!input.equalsIgnoreCase("exit")) {
+//                 System.out.println("Invalid command. Please enter 'add <item>', 'remove <item number>', or 'exit'.");
+//             }
+
+//         } while (!input.equalsIgnoreCase("exit"));
+
+//         System.out.println("Final list:");
+//         av.printList();
+//         scanner.close();
+//     }
+// }
+
+//++++++++++++++++++++++++++++++++++++++++++++++++++++++++++++++++++++++++++++++++++++++++++++++++++
+
+//Adventure game
+
+// import java.util.HashMap;
+// import java.util.Map;
+// import java.util.Random;
+// import java.util.Scanner;
+
+// public class AyaanVscode {
+//     private Room currentRoom;
+//     private int playerHealth = 100;
+//     private int playerAttackPower = 20;
+
+//     public AyaanVscode() {
+//         // Create rooms with enemies
+//         Room startRoom = new Room("You are in a dark cave. There's an exit to the north.", new Enemy("Goblin", 50, 10));
+//         Room battleRoom = new Room("You encounter a Goblin! Prepare to fight!", new Enemy("Goblin", 50, 10));
+//         Room treasureRoom = new Room("You are in a room with a chest of gold. There's an exit to the south.", new Enemy("Orc", 80, 15));
+//         Room finalRoom = new Room("You are in the final chamber. A fierce Dragon awaits! There's an exit to the south.", new Enemy("Dragon", 120, 25));
+        
+//         // Set room exits
+//         startRoom.setExit("north", battleRoom);
+//         battleRoom.setExit("south", startRoom);
+//         battleRoom.setExit("north", treasureRoom);
+//         treasureRoom.setExit("south", battleRoom);
+//         treasureRoom.setExit("north", finalRoom);
+//         finalRoom.setExit("south", treasureRoom);
+
+//         currentRoom = startRoom;
+//     }
+
+//     public void start() {
+//         Scanner scanner = new Scanner(System.in);
+//         System.out.println("Welcome to the Minecraft Dungeon Fighting Adventure!");
+
+//         while (true) {
+//             System.out.println(currentRoom.getDescription());
+//             if (currentRoom.hasEnemy()) {
+//                 handleCombat(scanner);
+//             } else {
+//                 System.out.print("What do you want to do? (type 'W' to attack, 'R' to flee, 'E' to regenerate health, 'SPARTON' to increase attack power, or direction to move) ");
+//                 String input = scanner.nextLine().trim().toUpperCase();
+
+//                 if (input.equals("QUIT")) {
+//                     System.out.println("Thanks for playing!");
+//                     break;
+//                 } else if (input.equals("W")) {
+//                     System.out.println("You need to be in combat to use 'W' to attack.");
+//                 } else if (input.equals("R")) {
+//                     System.out.println("You need to be in combat to use 'R' to flee.");
+//                 } else if (input.equals("E")) {
+//                     regenerateHealth();
+//                 } else if (input.equals("SPARTON")) {
+//                     increaseAttackPower();
+//                 } else if (currentRoom.hasExit(input.toLowerCase())) {
+//                     currentRoom = currentRoom.getExit(input.toLowerCase());
+//                 } else {
+//                     System.out.println("You can't go that way.");
+//                 }
+//             }
+//         }
+//         scanner.close();
+//     }
+
+//     private void handleCombat(Scanner scanner) {
+//         Enemy enemy = currentRoom.getEnemy();
+//         System.out.println("A wild " + enemy.getName() + " appears with " + enemy.getHealth() + " health!");
+
+//         while (enemy.getHealth() > 0 && playerHealth > 0) {
+//             System.out.print("What do you want to do? (type 'W' to attack, 'R' to flee) ");
+//             String action = scanner.nextLine().trim().toUpperCase();
+
+//             if (action.equals("W")) {
+//                 int damage = new Random().nextInt(playerAttackPower) + 1;
+//                 enemy.takeDamage(damage);
+//                 System.out.println("You attack the " + enemy.getName() + " for " + damage + " damage.");
+
+//                 if (enemy.getHealth() <= 0) {
+//                     System.out.println("You defeated the " + enemy.getName() + "!");
+//                     currentRoom.setEnemy(null);  // Remove enemy from room
+//                     return;
+//                 }
+
+//                 int enemyDamage = new Random().nextInt(enemy.getAttackPower()) + 1;
+//                 playerHealth -= enemyDamage;
+//                 System.out.println("The " + enemy.getName() + " attacks you for " + enemyDamage + " damage.");
+//                 System.out.println("You have " + playerHealth + " health left.");
+
+//                 if (playerHealth <= 0) {
+//                     System.out.println("You have been defeated by the " + enemy.getName() + ". Game over.");
+//                     System.exit(0);
+//                 }
+//             } else if (action.equals("R")) {
+//                 System.out.println("You flee from the " + enemy.getName() + ".");
+//                 break;
+//             } else {
+//                 System.out.println("Invalid action. Use 'W' to attack or 'R' to flee.");
+//             }
+//         }
+//     }
+
+//     private void regenerateHealth() {
+//         playerHealth = Math.min(playerHealth + 20, 100); // Regenerate health by 20, max 100
+//         System.out.println("You regenerated health. Current health: " + playerHealth);
+//     }
+
+//     private void increaseAttackPower() {
+//         playerAttackPower += 50;
+//         System.out.println("Your attack power has increased to " + playerAttackPower + "!");
+//     }
+
+//     public static void main(String[] args) {
+//         AyaanVscode game = new AyaanVscode();
+//         game.start();
+//     }
+
+//     // Inner class for Room
+//     private static class Room {
+//         private String description;
+//         private Map<String, Room> exits;
+//         private Enemy enemy;
+
+//         public Room(String description, Enemy enemy) {
+//             this.description = description;
+//             this.exits = new HashMap<>();
+//             this.enemy = enemy;
+//         }
+
+//         public String getDescription() {
+//             return description;
+//         }
+
+//         public void setExit(String direction, Room room) {
+//             exits.put(direction, room);
+//         }
+
+//         public boolean hasExit(String direction) {
+//             return exits.containsKey(direction);
+//         }
+
+//         public Room getExit(String direction) {
+//             return exits.get(direction);
+//         }
+
+//         public boolean hasEnemy() {
+//             return enemy != null;
+//         }
+
+//         public Enemy getEnemy() {
+//             return enemy;
+//         }
+
+//         public void setEnemy(Enemy enemy) {
+//             this.enemy = enemy;
+//         }
+//     }
+
+//     // Inner class for Enemy
+//     private static class Enemy {
+//         private String name;
+//         private int health;
+//         private int attackPower;
+
+//         public Enemy(String name, int health, int attackPower) {
+//             this.name = name;
+//             this.health = health;
+//             this.attackPower = attackPower;
+//         }
+
+//         public String getName() {
+//             return name;
+//         }
+
+//         public int getHealth() {
+//             return health;
+//         }
+
+//         public int getAttackPower() {
+//             return attackPower;
+//         }
+
+//         public void takeDamage(int damage) {
+//             health -= damage;
+//         }
+//     }
+// }
+
+
+//+++++++++++++++++++++++++++++++++++++++++++++++++++++++++++++++++++++++++++++++++++++++++++++++++++++
+
+// // A simple program to demonstrate 
+// // Tic-Tac-Toe Game.
+// import java.util.*;
+
+// public class AyaanVscode {
+
+// 	static String[] board;
+// 	static String turn;
+
+
+// 	// CheckWinner method will 
+// 	// decide the combination 
+// 	// of three box given below.
+// 	static String checkWinner()
+// 	{
+// 		for (int a = 0; a < 8; a++) {
+// 			String line = null;
+
+// 			switch (a) {
+// 			case 0:
+// 				line = board[0] + board[1] + board[2];
+// 				break;
+// 			case 1:
+// 				line = board[3] + board[4] + board[5];
+// 				break;
+// 			case 2:
+// 				line = board[6] + board[7] + board[8];
+// 				break;
+// 			case 3:
+// 				line = board[0] + board[3] + board[6];
+// 				break;
+// 			case 4:
+// 				line = board[1] + board[4] + board[7];
+// 				break;
+// 			case 5:
+// 				line = board[2] + board[5] + board[8];
+// 				break;
+// 			case 6:
+// 				line = board[0] + board[4] + board[8];
+// 				break;
+// 			case 7:
+// 				line = board[2] + board[4] + board[6];
+// 				break;
+// 			}
+// 			//For X winner
+// 			if (line.equals("XXX")) {
+// 				return "X";
+// 			}
+			
+// 			// For O winner
+// 			else if (line.equals("OOO")) {
+// 				return "O";
+// 			}
+// 		}
+		
+// 		for (int a = 0; a < 9; a++) {
+// 			if (Arrays.asList(board).contains(
+// 					String.valueOf(a + 1))) {
+// 				break;
+// 			}
+// 			else if (a == 8) {
+// 				return "draw";
+// 			}
+// 		}
+
+// 	// To enter the X Or O at the exact place on board.
+// 		System.out.println(
+// 			turn + "'s turn; enter a slot number to place "
+// 			+ turn + " in:");
+// 		return null;
+// 	}
+	
+// 	// To print out the board.
+// 	/* |---|---|---|
+// 	| 1 | 2 | 3 |
+// 	|-----------|
+// 	| 4 | 5 | 6 |
+// 	|-----------|
+// 	| 7 | 8 | 9 |
+// 	|---|---|---|*/
+
+// 	static void printBoard()
+// 	{
+// 		System.out.println("|---|---|---|");
+// 		System.out.println("| " + board[0] + " | "
+// 						+ board[1] + " | " + board[2]
+// 						+ " |");
+// 		System.out.println("|-----------|");
+// 		System.out.println("| " + board[3] + " | "
+// 						+ board[4] + " | " + board[5]
+// 						+ " |");
+// 		System.out.println("|-----------|");
+// 		System.out.println("| " + board[6] + " | "
+// 						+ board[7] + " | " + board[8]
+// 						+ " |");
+// 		System.out.println("|---|---|---|");
+// 	}
+
+// 	public static void main(String[] args)
+// 	{
+// 		Scanner in = new Scanner(System.in);
+// 		board = new String[9];
+// 		turn = "X";
+// 		String winner = null;
+
+// 		for (int a = 0; a < 9; a++) {
+// 			board[a] = String.valueOf(a + 1);
+// 		}
+
+// 		System.out.println("Welcome to 3x3 Tic Tac Toe.");
+// 		printBoard();
+
+// 		System.out.println(
+// 			"X will play first. Enter a slot number to place X in:");
+
+// 		while (winner == null) {
+// 			int numInput;
+		
+// 		// Exception handling.
+// 		// numInput will take input from user like from 1 to 9.
+// 		// If it is not in range from 1 to 9.
+// 		// then it will show you an error "Invalid input."
+// 			try {
+// 				numInput = in.nextInt();
+// 				if (!(numInput > 0 && numInput <= 9)) {
+// 					System.out.println(
+// 						"Invalid input; re-enter slot number:");
+// 					continue;
+// 				}
+// 			}
+// 			catch (InputMismatchException e) {
+// 				System.out.println(
+// 					"Invalid input; re-enter slot number:");
+// 				continue;
+// 			}
+			
+// 			// This game has two player x and O.
+// 			// Here is the logic to decide the turn.
+// 			if (board[numInput - 1].equals(
+// 					String.valueOf(numInput))) {
+// 				board[numInput - 1] = turn;
+
+// 				if (turn.equals("X")) {
+// 					turn = "O";
+// 				}
+// 				else {
+// 					turn = "X";
+// 				}
+
+// 				printBoard();
+// 				winner = checkWinner();
+// 			}
+// 			else {
+// 				System.out.println(
+// 					"Slot already taken; re-enter slot number:");
+// 			}
+// 		}
+	
+// 		// If no one win or lose from both player x and O.
+// 		// then here is the logic to print "draw".
+// 		if (winner.equalsIgnoreCase("draw")) {
+// 			System.out.println(
+// 				"It's a draw! Thanks for playing.");
+// 		}
+	
+// 		// For winner -to display Congratulations! message.
+// 		else {
+// 			System.out.println(
+// 				"Congratulations! " + winner
+// 				+ "'s have won! Thanks for playing.");
+// 		}
+// 	in.close();
+// 	}
+// }
+
+// battle ship++++++++++++++++++++++++++++++++++++++++++++++++++++++++++++++++++++++++
+
+// import java.util.Scanner;
+
+// public class AyaanVscode {
+//     private static final int BOARD_SIZE = 5;
+//     private char[][] board;
+//     private int shipsCount;
+
+//     public AyaanVscode() {
+//         board = new char[BOARD_SIZE][BOARD_SIZE];
+//         shipsCount = 0;
+//         initializeBoard();
+//     }
+
+//     private void initializeBoard() {
+//         for (int i = 0; i < BOARD_SIZE; i++) {
+//             for (int j = 0; j < BOARD_SIZE; j++) {
+//                 board[i][j] = '~'; // Water
+//             }
+//         }
+//     }
+
+//     public void placeShip(int row, int col) {
+//         if (row >= 0 && row < BOARD_SIZE && col >= 0 && col < BOARD_SIZE && board[row][col] == '~') {
+//             board[row][col] = 'S'; // Ship
+//             shipsCount++;
+//         } else {
+//             System.out.println("Invalid position or ship already placed here.");
+//         }
+//     }
+
+//     public void attack(int row, int col) {
+//         if (row >= 0 && row < BOARD_SIZE && col >= 0 && col < BOARD_SIZE) {
+//             if (board[row][col] == 'S') {
+//                 board[row][col] = 'X'; // Hit
+//                 shipsCount--;
+//                 System.out.println("Hit!");
+//             } else if (board[row][col] == '~') {
+//                 board[row][col] = 'O'; // Miss
+//                 System.out.println("Miss.");
+//             } else {
+//                 System.out.println("Already attacked here.");
+//             }
+//         } else {
+//             System.out.println("Invalid coordinates.");
+//         }
+//     }
+
+//     public boolean isGameOver() {
+//         return shipsCount == 0;
+//     }
+
+//     public void printBoard() {
+//         for (int i = 0; i < BOARD_SIZE; i++) {
+//             for (int j = 0; j < BOARD_SIZE; j++) {
+//                 System.out.print(board[i][j] + " ");
+//             }
+//             System.out.println();
+//         }
+//     }
+
+//     public static void main(String[] args) {
+//         Scanner scanner = new Scanner(System.in);
+//         AyaanVscode game = new AyaanVscode();
+        
+//         System.out.println("Welcome to Battleship!");
+
+//         // Place ships
+//         for (int i = 0; i < 3; i++) { // Let's place 3 ships
+//             System.out.println("Enter row and column to place a ship (0-4): ");
+//             int row = scanner.nextInt();
+//             int col = scanner.nextInt();
+//             game.placeShip(row, col);
+//         }
+
+//         // Game loop
+//         while (!game.isGameOver()) {
+//             System.out.println("Enter row and column to attack (0-4): ");
+//             int row = scanner.nextInt();
+//             int col = scanner.nextInt();
+//             game.attack(row, col);
+//             game.printBoard();
+//         }
+
+//         System.out.println("Congratulations! You have sunk all the ships.");
+//         scanner.close();
+//     }
+// }
+//+++++++++++++++++++++++++++++++++++++++++++++++++++++++++++++++++++++++++++++++++++++++++++++++++++++++++++++++++++++++++++++++
